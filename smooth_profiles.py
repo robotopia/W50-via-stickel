@@ -64,8 +64,8 @@ if __name__ == "__main__":
     dydx1 = dfn(xmid1)
     dydx2 = dfn(xmid2)
 
-    xmid1_err = dydx1*std
-    xmid2_err = dydx2*std
+    xmid1_err = std / dydx1
+    xmid2_err = std / dydx2
 
     W50     = xmid2 - xmid1
     W50_err = np.sqrt(xmid1_err**2 + xmid2_err**2)
