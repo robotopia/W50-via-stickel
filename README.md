@@ -3,6 +3,7 @@
 A small Python tool for measuring W_50 of noisy pulsar profiles.
 This simple algorithm uses a regularisation procedure to smooth the profiles (Stickel, 2010), from which W50 (the FWHM) can be straightforwardly determined.
 The folders contain the data that this algorithm was applied to.
+These are published in [Kaur et al. (2019)](https://doi.org/10.3847/1538-4357/ab338f).
 
 ## Original request
 
